@@ -35,7 +35,7 @@ const SignInRender = (props) => (
         <span>Remember me!</span>
       </div>
     </div>
-    <NavLink exact to="/" activeClassName="active">
+    <NavLink to="/" activeClassName="active">
       <button className="but" onClick={props.button}>
         SIGN IN
       </button>

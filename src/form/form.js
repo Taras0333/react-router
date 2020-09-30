@@ -4,14 +4,7 @@ import SignInRender from "../signIn/signIn-render";
 import { Route, Switch } from "react-router-dom";
 
 class SignUp extends Component {
-  state = {
-    isActive: true,
-  };
-
-  st = () => {
-    let aaa = document.querySelector(".bot-bar");
-    console.log(aaa);
-  };
+  state = {};
 
   saveName = (e) => {
     let name = document.querySelector(".name-input");
@@ -87,12 +80,13 @@ class SignUp extends Component {
     });
   };
   validation = () => {
-    let aaa = JSON.parse(localStorage.getItem("State"));
+    let local = JSON.parse(localStorage.getItem("State"));
     if (
-      this.state.email2 === aaa.email &&
-      this.state.password2 === aaa.password
+      this.state.email2 === local.email &&
+      this.state.password2 === local.password &&
+      this.state.email2 > 0
     ) {
-      alert(aaa.name + " you have loged in");
+      alert(local.name + " you have loged in");
     } else {
       alert("you didn`t loged in, please chack your email or password");
     }
@@ -117,24 +111,6 @@ class SignUp extends Component {
           />
         </Route>
       </Switch>
-      /*<>
-        {this.state.isActive && (
-          <SignUpRender
-            name={this.saveName}
-            sureName={this.saveSureName}
-            email={this.saveEmail}
-            password={this.savePassword}
-            btn={this.saveLocal}
-          />
-        )}
-        {!this.state.isActive && (
-          <SignInRender
-            email={this.getEmail}
-            password={this.getPassword}
-            button={this.validation}
-          />
-        )}
-      </>*/
     );
   }
 }

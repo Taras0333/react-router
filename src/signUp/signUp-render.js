@@ -61,7 +61,7 @@ const SignUpRender = (props) => (
           </span>
         </div>
       </div>
-      <NavLink exact to="/about" activeClassName="active">
+      <NavLink to="/about" activeClassName="active">
         <button className="btn" onClick={props.btn}>
           SIGN UP
         </button>
