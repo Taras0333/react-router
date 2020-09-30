@@ -1,0 +1,140 @@
+.form {
+  width: 450px;
+  height: 600px;
+  border: 1px solid gray;
+}
+.top-bar {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+.title {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.img-wrapper {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(194, 95, 133);
+  border-radius: 50%;
+  background-image: url("../images/lock.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mid-bar {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mid-bar-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inputs {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 4px;
+  border: 1px solid #d8d1d1;
+  padding: 0px 10px;
+  color: white;
+  outline: none;
+}
+.inputs-mid {
+  width: 371px;
+  height: 40px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 4px;
+  border: 1px solid #d8d1d1;
+  padding: 0px 10px;
+  color: white;
+  outline: none;
+}
+.bot-bar {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-cont {
+  width: 350px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.checkbox-cont {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.checkbox-input {
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+.checkbox-discription {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d2d2d2;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.btn {
+  width: 350px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(127, 189, 247);
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto";
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  background-color: rgb(194, 95, 133);
+}
+.already-wrap {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: rgb(127, 189, 247);
+  font-size: 13px;
+}
+.already-parag {
+  margin-right: 52px;
+  cursor: pointer;
+}
+.rights-wrap {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy-right {
+  color: #d2d2d2;
+  font-size: 13px;
+}

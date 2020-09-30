@@ -1,0 +1,78 @@
+.signIn-cont {
+  width: 450px;
+  height: 450px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-in-top-bar {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+}
+.email-sign-in {
+  width: 325px;
+  height: 40px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 4px;
+  border: 1px solid #d8d1d1;
+  padding: 0px 10px;
+  color: white;
+  outline: none;
+}
+.password-sign-in {
+  width: 325px;
+  height: 40px;
+  background-color: rgb(15, 15, 15);
+  border-radius: 4px;
+  border: 1px solid #d8d1d1;
+  padding: 0px 10px;
+  color: white;
+  outline: none;
+}
+.remember-me-wrap {
+  width: 350px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-in-checkbox-discription {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #d2d2d2;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+.forgot-password-wrap {
+  width: 77%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forgot-password-items {
+  color: rgb(127, 189, 247);
+  font-size: 13px;
+  cursor: pointer;
+}
+.but {
+  width: 350px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(127, 189, 247);
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto";
+}
