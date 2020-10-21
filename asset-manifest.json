@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-router/static/css/main.d586415a.chunk.css",
-    "main.js": "/react-router/static/js/main.1b9830de.chunk.js",
-    "main.js.map": "/react-router/static/js/main.1b9830de.chunk.js.map",
+    "main.js": "/react-router/static/js/main.50933524.chunk.js",
+    "main.js.map": "/react-router/static/js/main.50933524.chunk.js.map",
     "runtime-main.js": "/react-router/static/js/runtime-main.7f93213d.js",
     "runtime-main.js.map": "/react-router/static/js/runtime-main.7f93213d.js.map",
     "static/js/2.8195aa2b.chunk.js": "/react-router/static/js/2.8195aa2b.chunk.js",
     "static/js/2.8195aa2b.chunk.js.map": "/react-router/static/js/2.8195aa2b.chunk.js.map",
     "index.html": "/react-router/index.html",
-    "precache-manifest.40e3d22dba4676ef42d2cc5640a5a0fc.js": "/react-router/precache-manifest.40e3d22dba4676ef42d2cc5640a5a0fc.js",
+    "precache-manifest.2947964f9727597d937a0aa18c30bc59.js": "/react-router/precache-manifest.2947964f9727597d937a0aa18c30bc59.js",
     "service-worker.js": "/react-router/service-worker.js",
     "static/css/main.d586415a.chunk.css.map": "/react-router/static/css/main.d586415a.chunk.css.map",
     "static/js/2.8195aa2b.chunk.js.LICENSE.txt": "/react-router/static/js/2.8195aa2b.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.7f93213d.js",
     "static/js/2.8195aa2b.chunk.js",
     "static/css/main.d586415a.chunk.css",
-    "static/js/main.1b9830de.chunk.js"
+    "static/js/main.50933524.chunk.js"
   ]
 }
