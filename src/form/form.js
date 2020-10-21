@@ -43,9 +43,9 @@ class SignUp extends Component {
     }
   };
   isEmail = (email) => {
-    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+    return (/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
       email
-    );
+    ))
   };
   savePassword = (e) => {
     let password = document.querySelector(".password");
@@ -60,7 +60,7 @@ class SignUp extends Component {
     }
   };
   isPassword = (password) => {
-    return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/.test(password);
+    return (/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/.test(password));
   };
   saveLocal = (e) => {
     let localState = JSON.stringify(this.state);
@@ -73,6 +73,7 @@ class SignUp extends Component {
     this.setState({
       email2: e.target.value,
     });
+    
   };
   getPassword = (e) => {
     this.setState({
@@ -81,12 +82,8 @@ class SignUp extends Component {
   };
   validation = () => {
     let local = JSON.parse(localStorage.getItem("State"));
-    if (
-      this.state.email2 === local.email &&
-      this.state.password2 === local.password &&
-      this.state.email2 > 0
-    ) {
-      alert(local.name + " you have loged in");
+    if (this.state.email2 === local.email && this.state.password2 === local.password && this.state.email2.length > 0){
+      alert(" you have loged in");
     } else {
       alert("you didn`t loged in, please chack your email or password");
     }
@@ -114,4 +111,5 @@ class SignUp extends Component {
     );
   }
 }
+
 export default SignUp;
